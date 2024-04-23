@@ -1,7 +1,7 @@
 function loadLibrary() {
   // Add CSS links
   var cssLinks = [
-    'https://path/to/cdn/button.css',
+    '/components/',
     'https://path/to/cdn/switch.css',
   ];
 
