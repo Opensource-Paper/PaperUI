@@ -1,3 +1,5 @@
+window.addEventListener('load', loadLibrary);
+
 function loadLibrary() {
   // Add CSS links
   var cssLinks = [
