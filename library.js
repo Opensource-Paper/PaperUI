@@ -1,8 +1,8 @@
 function loadLibrary() {
   // Add CSS links
   var cssLinks = [
-    '/components/',
-    'https://path/to/cdn/switch.css',
+    '/components/button/button.css',
+    '/components/switch/switch.css',
   ];
 
   cssLinks.forEach(function(link) {
@@ -14,8 +14,8 @@ function loadLibrary() {
 
   // Add JS scripts
   var jsScripts = [
-    'https://path/to/cdn/button.js',
-    'https://path/to/cdn/switch.js',
+    '/components/button/button.js',
+    '/components/switch/switch.js',
   ];
 
   jsScripts.forEach(function(script) {
