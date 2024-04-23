@@ -14,4 +14,10 @@ buttons.forEach(button => {
       console.log('Button clicked');
     }
   });
+
+  // Apply text style if link is present
+  const link = button.getAttribute('link');
+  if (link) {
+    button.style.textDecoration = 'underline';
+  }
 });
