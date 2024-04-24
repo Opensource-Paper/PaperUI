@@ -32,4 +32,15 @@ npm install onyx-ui/react
 
 ## Usage
 
-Use the ```<component-name> ``` tag in HTML markup. Refer to the [Component Docs](https://imasquarebtws-organization.gitbook.io/onyx-ui/components) for more guidance on using each component. That's it 🎉.
+Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://imasquarebtws-organization.gitbook.io/onyx-ui/components) for more guidance on using each component. That's it 🎉.
+
+```html
+<media-button-filled>Filled</media-button-filled>
+<media-button-outlined>Outlined</media-button-outlined>
+```
+
+```html
+<media-switch></media-switch>
+<media-switch disabled checked></media-switch>
+```
+
