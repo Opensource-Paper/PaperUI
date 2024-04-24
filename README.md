@@ -18,7 +18,7 @@
 Import Onyx UI web components using CDN. The import.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/gh/GreenestGoat/Onyx-UI/cdn/import.js"></script>
+<script type="module" src="https://greenestgoat.github.io/Onyx-UI/cdn/import-min.js"></script>
 ```
 
 ### NPM
