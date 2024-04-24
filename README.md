@@ -21,12 +21,12 @@ Import Onyx UI web components using CDN. The import.js file will automatically i
 <script type="module" src="https://cdn.jsdelivr.net/gh/GreenestGoat/Onyx-UI/cdn/import.js"></script>
 ```
 
-<!--### NPM
+### NPM
 
 Install Onyx UI web components using [npm and node](https://nodejs.org/en).
 
 ```shell
-npm install onyx-ui/library
+npm install onyx-ui/library ⛔ not yet in development
 ```
 
 ### React NPM
@@ -34,8 +34,8 @@ npm install onyx-ui/library
 Install Onyx UI react components using [npm and node](https://nodejs.org/en).
 
 ```shell
-npm install onyx-ui/react
-```-->
+npm install onyx-ui/react ⛔ not yet in development
+```
 
 ## Usage
 
