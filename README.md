@@ -1,5 +1,5 @@
 <p align="center">
-# Onyx UI
+<img alt="Logo Banner" src="https://github.com/Opensource-Waves/Waves/blob/10a9fc4d7c79e59a58affe9e13a1eff544608337/github-logo/Frame%205.svg?sanitize=true"/>
 <br/>
 <br/>
 
