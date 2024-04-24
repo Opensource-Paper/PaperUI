@@ -29,3 +29,5 @@ Install Onyx UI react components using npm and node.
 ```shell
 npm install onyx-ui/react
 ```
+
+## Usage
