@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://github.com/Opensource-Waves/Waves/blob/10a9fc4d7c79e59a58affe9e13a1eff544608337/github-logo/Frame%205.svg?sanitize=true"/>
+<img alt="Logo Banner" src="https://github.com/GreenestGoat/Onyx-UI/blob/f962da2b386afe1345c36909b688210e95855501/banner/banner.svg?sanitize=true"/>
 <br/>
 
 
