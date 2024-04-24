@@ -72,6 +72,6 @@ input:checked + .slider:before {
   background-color: #fff;
     height: 1.4em;
   width: 1.4em;
-    bottom: 0.15em;
+    bottom: 0.25em;
     left: 0.27em;
 }
