@@ -16,7 +16,7 @@
 
 ### NPM
 
-Install Onyx UI web components using npm and node.
+Install Onyx UI web components using [npm and node](https://nodejs.org/en).
 
 ```shell
 npm install onyx-ui/library
@@ -24,7 +24,7 @@ npm install onyx-ui/library
 
 ### React NPM
 
-Install Onyx UI react components using npm and node.
+Install Onyx UI react components using [npm and node](https://nodejs.org/en).
 
 ```shell
 npm install onyx-ui/react
