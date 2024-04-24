@@ -7,7 +7,7 @@
 <div align="left">The Onyx UI library allows users to easily import and style a wide range of components with a singular cdn link.</div>
 <div align="left">
 
-[Component Docs](https://imasquarebtws-organization.gitbook.io/onyx-ui/components)
+[Documentation](https://imasquarebtws-organization.gitbook.io/onyx-ui)
 
 </div>
 
