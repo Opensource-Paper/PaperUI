@@ -20,7 +20,7 @@
 
 #
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/Opensource-Waves/Waves/App/V1/Waves/waves.git
