@@ -31,3 +31,5 @@ npm install onyx-ui/react
 ```
 
 ## Usage
+
+Use the <component-name> tag in HTML markup. Refer to the [Component Docs](https://imasquarebtws-organization.gitbook.io/onyx-ui/introduction/installation) for more guidance on using each component. That's it 🎉.
