@@ -16,12 +16,22 @@
 
 #
 
-### 📦 Docker Container
+### NPM
 
-You can run the Docker container with the following command, replacing 8080 with the port of your choice:
+Install Onyx UI web components using npm and node.
 
 ```bash
-docker run -d -p 8080:80 ghcr.io/greenestgoat/opensource-waves
+npm install onyx-ui/library
+```
+
+#
+
+### React NPM
+
+Install Onyx UI react components using npm and node.
+
+```bash
+npm install onyx-ui/react
 ```
 
 #
