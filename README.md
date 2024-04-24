@@ -14,8 +14,6 @@
 <script type="module" src="https://cdn.jsdelivr.net/gh/GreenestGoat/Onyx-UI/cdn/import.js"></script>
 ```
 
-#
-
 ### NPM
 
 Install Onyx UI web components using npm and node.
@@ -24,8 +22,6 @@ Install Onyx UI web components using npm and node.
 npm install onyx-ui/library
 ```
 
-#
-
 ### React NPM
 
 Install Onyx UI react components using npm and node.
@@ -33,5 +29,3 @@ Install Onyx UI react components using npm and node.
 ```shell
 npm install onyx-ui/react
 ```
-
-#
