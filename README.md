@@ -10,15 +10,8 @@
 
 ### CDN
 
-```bash
-git clone https://github.com/Opensource-Waves/Waves/App/V1/Waves/waves.git
-cd waves
-npm install
-npm run dev
-
-// Compiling
-
-npm run build
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/GreenestGoat/Onyx-UI/cdn/import.js"></script>
 ```
 
 #
