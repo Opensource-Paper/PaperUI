@@ -26,13 +26,14 @@ const observer = new MutationObserver(handleMutations);
 
 // Add click event listener and start observing mutations for each button
 buttons.forEach(button => {
-  button.addEventListener('click', () => {
+  button.addEventListener('click', (event) => {
     const link = button.getAttribute('link');
     if (link) {
-      window.location.href = link;
+      window.open(link, '_blank');
     } else {
       console.log('Button clicked');
     }
+    event.preventDefault(); // Prevent default link behavior
   });
 
   applyTextDecoration(button);
