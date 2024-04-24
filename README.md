@@ -20,7 +20,7 @@
 
 Install Onyx UI web components using npm and node.
 
-```bash
+```shell
 npm install onyx-ui/library
 ```
 
@@ -30,7 +30,7 @@ npm install onyx-ui/library
 
 Install Onyx UI react components using npm and node.
 
-```bash
+```shell
 npm install onyx-ui/react
 ```
 
