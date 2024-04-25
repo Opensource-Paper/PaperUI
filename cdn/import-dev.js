@@ -5,9 +5,9 @@ window.addEventListener('load', loadLibrary);
 function loadLibrary() {
   // Add CSS links
   var cssLinks = [
-    'components/button/button-dev.css',
-    'components/switch/switch-dev.css',
-    'components/input/input-dev.css',
+    'components/button/dev/button-dev.css',
+    'components/switch/dev/switch-dev.css',
+    'components/input/dev/input-dev.css',
     // Add more CSS links here...
   ];
 
@@ -20,9 +20,9 @@ function loadLibrary() {
 
   // Add JS scripts
   var jsScripts = [
-    'components/button/button-dev.js',
-    'components/switch/switch-dev.js',
-    'components/input/input-dev.js',
+    'components/button/dev/button-dev.js',
+    'components/switch/dev/switch-dev.js',
+    'components/input/dev/input-dev.js',
     // Add more JS scripts here...
   ];
 
