@@ -13,7 +13,7 @@ function loadLibrary() {
   cssLinks.forEach(function(link) {
     var cssTag = document.createElement('link');
     cssTag.rel = 'stylesheet';
-    cssTag.href = 'https://greenestgoat.github.io/Onyx-UI/' + link;
+    cssTag.href = 'https://greenestgoat.github.io/Prism-UI/' + link;
     document.head.appendChild(cssTag);
   });
 
@@ -26,7 +26,7 @@ function loadLibrary() {
 
   jsScripts.forEach(function(script) {
     var jsTag = document.createElement('script');
-    jsTag.src = 'https://greenestgoat.github.io/Onyx-UI/' + script;
+    jsTag.src = 'https://greenestgoat.github.io/Prism-UI/' + script;
     document.head.appendChild(jsTag);
   });
 }
