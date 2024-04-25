@@ -7,7 +7,7 @@
 <div align="left">The Prism UI library allows users to easily import and style a wide range of components with a singular cdn link.</div>
 <div align="left">
 
-[Documentation](https://imasquarebtws-organization.gitbook.io/prism-ui)
+[Documentation](https://docs.prism-ui.com/)
 
 </div>
 
@@ -39,7 +39,7 @@ npm install prism-ui/react
 
 ## Usage
 
-Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://imasquarebtws-organization.gitbook.io/prism-ui/components) for more guidance on using each component. That's it 🎉.
+Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://docs.prism-ui.com/components) for more guidance on using each component. That's it 🎉.
 
 ```html
 <media-button-filled>Filled</media-button-filled>
