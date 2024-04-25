@@ -1,1 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+media-input {
+    font-family: Roboto, Arial, sans-serif;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 38px;
+    min-height: 38px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #0c0c0c;
+    outline: 1px solid #414141;
+    color: #f1f1f1;
+}
+
+media-input svg {
+    height: 16px;
+    width: 16px;
+    color: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 11px;
+    margin-right: 11px;
+}
+
+media-input input {
+    padding: 2px 0px 1px 0px;
+    text-align: left;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: calc(100% - 30px);
+    cursor: text;
+    color: inherit;
+    max-width: 100%;
+    user-select: none;
+    align-items: center;
+    display: flex;
+}
