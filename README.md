@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://prism-ui.com/banner/icon.png?sanitize=true"/>
+<img alt="Logo Banner" src="https://prism-ui.com/banner/banner.svg?sanitize=true"/>
 <br/>
 
 
