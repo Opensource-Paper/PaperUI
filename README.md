@@ -15,7 +15,7 @@
 
 ### CDN
 
-Import Prism UI web components using CDN. The import.js file will automatically import all styles and JavaScript files into the ```<head>```.
+Import Prism UI web components using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
 <script type="module" src="https://greenestgoat.github.io/Prism-UI/cdn/import-min.js"></script>
