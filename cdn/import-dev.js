@@ -7,6 +7,7 @@ function loadLibrary() {
   var cssLinks = [
     'components/button/button.css',
     'components/switch/switch.css',
+    'components/input/input-dev.css',
     // Add more CSS links here...
   ];
 
@@ -21,6 +22,7 @@ function loadLibrary() {
   var jsScripts = [
     'components/button/button.js',
     'components/switch/switch.js',
+    'components/input/input-dev.js',
     // Add more JS scripts here...
   ];
 
