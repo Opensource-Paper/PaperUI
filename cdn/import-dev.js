@@ -13,7 +13,7 @@ function loadLibrary() {
   cssLinks.forEach(function(link) {
     var cssTag = document.createElement('link');
     cssTag.rel = 'stylesheet';
-    cssTag.href = 'https://greenestgoat.github.io/Prism-UI/' + link;
+    cssTag.href = 'https://prism-ui.com/' + link;
     document.head.appendChild(cssTag);
   });
 
@@ -26,7 +26,7 @@ function loadLibrary() {
 
   jsScripts.forEach(function(script) {
     var jsTag = document.createElement('script');
-    jsTag.src = 'https://greenestgoat.github.io/Prism-UI/' + script;
+    jsTag.src = 'https://prism-ui.com/' + script;
     document.head.appendChild(jsTag);
   });
 }
