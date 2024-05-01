@@ -20,6 +20,10 @@ Import Prism UI web components using CDN. The import-min.js file will automatica
 ```html
 <script type="module" src="https://prism-ui.com/cdn/import-min.js"></script>
 ```
+#### Development
+```html
+<script type="module" src="https://prism-ui.com/cdn/import-dev.js"></script>
+```
 
 ### NPM
 
