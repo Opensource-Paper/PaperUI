@@ -20,7 +20,7 @@ const observerCallback = (mutationsList, observer) => {
 
     // Check if the 'disabled' attribute has changed
     if (mutation.attributeName === 'disabled') {
-      const clonedLabel = mediaCheckbox.querySelector('label.cl-checkbox');
+      const clonedLabel = mediaCheckbox.querySelector('.cl-checkbox');
 
       if (mediaCheckbox.hasAttribute('disabled')) {
         // Apply opacity and pointer-events styles to the cloned label
