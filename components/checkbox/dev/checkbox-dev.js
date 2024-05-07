@@ -7,6 +7,11 @@ Checkboxlabel.classList.add('cl-checkbox');
 
 const CheckboxSpan = document.createElement('span');
 
+const observerConfig = {
+  attributes: true, // Observe attribute changes
+  attributeFilter: ['disabled', 'checked'] // Only observe 'disabled' and 'checked' attributes
+};
+
 
 // Create a mutation observer callback function
 const observerCallback = (mutationsList, observer) => {
