@@ -58,16 +58,16 @@ media-switch {
   transition: .4s;
 }
 
-input:checked + .slider {
+.switch input:checked + .slider {
   background-color: #000000;
   border: 1px solid #000000;
 }
 
-input:focus + .slider {
+.switch input:focus + .slider {
   box-shadow: 0 0 1px #000000;
 }
 
-input:checked + .slider:before {
+.switch input:checked + .slider:before {
   transform: translateX(1.4em);
   background-color: #fff;
     height: 1.4em;
