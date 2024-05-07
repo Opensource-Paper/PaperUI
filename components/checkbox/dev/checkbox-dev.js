@@ -1,4 +1,4 @@
-const mediaSwitches = document.querySelectorAll('media-switch');
+/*const mediaSwitches = document.querySelectorAll('media-switch');
 
 // Create the label, input, and span elements outside the loop
 const label = document.createElement('label');
@@ -79,4 +79,4 @@ mediaSwitches.forEach(mediaSwitch => {
 
   // Observe changes on the media-switch element
   observer.observe(mediaSwitch, observerConfig);
-});
+});*/
