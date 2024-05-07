@@ -8,6 +8,12 @@ label.classList.add('switch');
 const span = document.createElement('span');
 span.classList.add('slider');
 
+const observerConfig = {
+  attributes: true, // Observe attribute changes
+  attributeFilter: ['disabled', 'checked'] // Only observe 'disabled' and 'checked' attributes
+};
+
+
 // Create a mutation observer callback function
 const observerCallback = (mutationsList, observer) => {
   mutationsList.forEach(mutation => {
