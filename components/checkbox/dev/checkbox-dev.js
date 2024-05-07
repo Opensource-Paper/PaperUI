@@ -2,10 +2,10 @@
 const mediaCheckboxes = document.querySelectorAll('media-checkbox');
 
 // Create the label, input, and span elements outside the loop
-const label = document.createElement('label');
-label.classList.add('cl-checkbox');
+const Checkboxlabel = document.createElement('label');
+Checkboxlabel.classList.add('cl-checkbox');
 
-const span = document.createElement('span');
+const CheckboxSpan = document.createElement('span');
 
 // Create a mutation observer configuration
 const observerConfig = {
