@@ -34,8 +34,3 @@ function loadLibrary() {
     document.head.appendChild(jsTag);
   });
 }
-
-const observerConfig = {
-  attributes: true, // Observe attribute changes
-  attributeFilter: ['disabled', 'checked'] // Only observe 'disabled' and 'checked' attributes
-};
