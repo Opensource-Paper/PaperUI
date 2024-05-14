@@ -82,13 +82,13 @@ media-checkbox {
 /* Checked, Indeterminate */
 .cl-checkbox > input:checked,
 .cl-checkbox > input:indeterminate {
- background-color: #018786;
+ background-color: #000000;
 }
 
 .cl-checkbox > input:checked + span::before,
 .cl-checkbox > input:indeterminate + span::before {
- border-color: #018786;
- background-color: #018786;
+ border-color: #000000;
+ background-color: #000000;
 }
 
 .cl-checkbox > input:checked + span::after,
