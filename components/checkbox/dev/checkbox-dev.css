@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 media-checkbox {
   font-weight: 500;
@@ -18,7 +18,7 @@ media-checkbox {
  display: inline-block;
 }
 
-
+/* Input */
 .cl-checkbox > input {
  appearance: none;
  -moz-appearance: none;
@@ -41,20 +41,21 @@ media-checkbox {
  transition: opacity 0.3s, transform 0.2s;
 }
 
-
+/* Span */
 .cl-checkbox > span {
  display: inline-block;
  width: 100%;
  cursor: pointer;
 }
 
-
+/* Box */
 .cl-checkbox > span::before {
  content: "";
  display: inline-block;
  box-sizing: border-box;
  margin: 3px 11px 3px 1px;
  border: solid 2px;
+ /* Safari */
  border-color: rgba(0, 0, 0, 0.6);
  border-radius: 2px;
  width: 18px;
@@ -63,7 +64,7 @@ media-checkbox {
  transition: border-color 0.2s, background-color 0.2s;
 }
 
-
+/* Checkmark */
 .cl-checkbox > span::after {
  content: "";
  display: block;
@@ -78,7 +79,7 @@ media-checkbox {
  transform: translate(3px, 4px) rotate(-45deg);
 }
 
-
+/* Checked, Indeterminate */
 .cl-checkbox > input:checked,
 .cl-checkbox > input:indeterminate {
  background-color: #018786;
@@ -100,7 +101,7 @@ media-checkbox {
  transform: translate(4px, 3px);
 }
 
-
+/* Hover, Focus */
 .cl-checkbox:hover > input {
  opacity: 0.04;
 }
@@ -113,7 +114,7 @@ media-checkbox {
  opacity: 0.16;
 }
 
-
+/* Active */
 .cl-checkbox > input:active {
  opacity: 1;
  transform: scale(0);
@@ -129,7 +130,7 @@ media-checkbox {
  background-color: rgba(0, 0, 0, 0.6);
 }
 
-
+/* Disabled */
 .cl-checkbox > input:disabled {
  opacity: 0;
 }
@@ -147,4 +148,4 @@ media-checkbox {
 .cl-checkbox > input:indeterminate:disabled + span::before {
  border-color: transparent;
  background-color: currentColor;
-}*/
+}
