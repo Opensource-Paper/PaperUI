@@ -3,7 +3,7 @@ const mediaCheckboxes = document.querySelectorAll('media-checkbox');
 
 // Create the label, input, and span elements outside the loop
 const checkboxLabel = document.createElement('label');
-checkboxLabel.classList.add('cl-checkbox');
+checkboxLabel.classList.add('md-checkbox');
 
 const checkboxSpan = document.createElement('span');
 
@@ -20,7 +20,7 @@ const checkboxObserverCallback = (mutationsList, observer) => {
 
     // Check if the 'disabled' attribute has changed
     if (mutation.attributeName === 'disabled') {
-      const clonedLabel = mediaCheckbox.querySelector('label.cl-checkbox');
+      const clonedLabel = mediaCheckbox.querySelector('label.md-checkbox');
 
       if (mediaCheckbox.hasAttribute('disabled')) {
         // Apply opacity and pointer-events styles to the cloned label
