@@ -41,7 +41,7 @@ media-switch {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  border: 1px solid #adb5bd;
+  border: 1px solid rgba(94,94,94,.5);
   transition: .4s;
   border-radius: 30px;
 }
