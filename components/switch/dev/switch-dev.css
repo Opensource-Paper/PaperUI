@@ -52,8 +52,8 @@ media-switch {
  border-radius: 9999px;
  left: 0.2em;
  bottom: 0.2em;
- background-color: #aeaaae;
- transition: .4s;
+ background-color: #000000;
+ transition: .2s;
 }
 
 input:checked + .slider::before {
