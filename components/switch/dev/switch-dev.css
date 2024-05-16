@@ -42,7 +42,7 @@ media-switch {
   bottom: 0;
   background-color: #fff;
   border: 1px solid rgba(94,94,94,.5);
-  transition: .4s;
+  transition: all .15s ease;
   border-radius: 30px;
 }
 
