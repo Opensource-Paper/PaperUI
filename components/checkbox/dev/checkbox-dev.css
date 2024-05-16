@@ -5,34 +5,43 @@ media-checkbox {
   font-size: 14px;
   color: 09090B;
   font-family: "Roboto", sans-serif;
-  width: fit-content;
-  height: fit-content;
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  transistion: all 0.15s ease;
 }
 
-.cl-checkbox {
+media-checkbox:hover {
+  opacity: 0.9;
+}
+
+.md-checkbox {
+  height: 100%;
+  width: 100%;
  position: relative;
- display: inline-block;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Input */
-.cl-checkbox > input {
+.md-checkbox > input {
  appearance: none;
  -moz-appearance: none;
  -webkit-appearance: none;
  z-index: -1;
  position: absolute;
- left: -10px;
- top: -8px;
- display: block;
+ display: flex;
  margin: 0;
- border-radius: 50%;
- width: 40px;
- height: 40px;
- background-color: rgba(0, 0, 0, 0.6);
+ width: 30px;
+ height: 30px;
+ background-color: rgba(0, 0, 0, 0);
  box-shadow: none;
  outline: none;
  opacity: 0;
@@ -42,36 +51,39 @@ media-checkbox {
 }
 
 /* Span */
-.cl-checkbox > span {
- display: inline-block;
- width: 100%;
+.md-checkbox > span {
+ width: 30px;
+  height: 30px;
  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Box */
-.cl-checkbox > span::before {
+.md-checkbox > span::before {
  content: "";
- display: inline-block;
+ display: flex;
  box-sizing: border-box;
- margin: 3px 11px 3px 1px;
  border: solid 2px;
  /* Safari */
- border-color: rgba(0, 0, 0, 0.6);
- border-radius: 2px;
- width: 18px;
- height: 18px;
+ border-color: rgba(94, 94, 94, 0.5);
+ border-radius: 5px;
+ width: 30px;
+ height: 30px;
  vertical-align: top;
- transition: border-color 0.2s, background-color 0.2s;
+ transition: all 0.15s ease;
 }
 
 /* Checkmark */
-.cl-checkbox > span::after {
+.md-checkbox > span::after {
  content: "";
  display: block;
  position: absolute;
- top: 3px;
- left: 1px;
- width: 10px;
+ top: 5px;
+ left: 3px;
+ width: 15px;
  height: 5px;
  border: solid 2px transparent;
  border-right: none;
@@ -80,72 +92,68 @@ media-checkbox {
 }
 
 /* Checked, Indeterminate */
-.cl-checkbox > input:checked,
-.cl-checkbox > input:indeterminate {
+.md-checkbox > input:checked,
+.md-checkbox > input:indeterminate {
  background-color: #000000;
 }
 
-.cl-checkbox > input:checked + span::before,
-.cl-checkbox > input:indeterminate + span::before {
+.md-checkbox > input:checked + span::before,
+.md-checkbox > input:indeterminate + span::before {
  border-color: #000000;
  background-color: #000000;
 }
 
-.cl-checkbox > input:checked + span::after,
-.cl-checkbox > input:indeterminate + span::after {
+.md-checkbox > input:checked + span::after,
+.md-checkbox > input:indeterminate + span::after {
  border-color: #fff;
 }
 
-.cl-checkbox > input:indeterminate + span::after {
+.md-checkbox > input:indeterminate + span::after {
  border-left: none;
  transform: translate(4px, 3px);
 }
 
 /* Hover, Focus */
-.cl-checkbox:hover > input {
+.md-checkbox:hover > input {
  opacity: 0.04;
 }
 
-.cl-checkbox > input:focus {
+.md-checkbox > input:focus {
  opacity: 0.12;
 }
 
-.cl-checkbox:hover > input:focus {
+.md-checkbox:hover > input:focus {
  opacity: 0.16;
 }
 
 /* Active */
-.cl-checkbox > input:active {
+.md-checkbox > input:active {
  opacity: 1;
- transform: scale(0);
+ transform: scale(1);
  transition: transform 0s, opacity 0s;
 }
 
-.cl-checkbox > input:active + span::before {
- border-color: #85b8b7;
-}
-
-.cl-checkbox > input:checked:active + span::before {
- border-color: transparent;
- background-color: rgba(0, 0, 0, 0.6);
+.md-checkbox > input:checked:active + span::before {
+ border-color: rgba(0, 0, 0, 1);
+ background-color: rgba(0, 0, 0, 1);
 }
 
 /* Disabled */
-.cl-checkbox > input:disabled {
+.md-checkbox > input:disabled {
  opacity: 0;
 }
 
-.cl-checkbox > input:disabled + span {
+.md-checkbox > input:disabled + span {
  color: rgba(0, 0, 0, 0.38);
  cursor: initial;
 }
 
-.cl-checkbox > input:disabled + span::before {
+.md-checkbox > input:disabled + span::before {
  border-color: currentColor;
 }
 
-.cl-checkbox > input:checked:disabled + span::before,
-.cl-checkbox > input:indeterminate:disabled + span::before {
+.md-checkbox > input:checked:disabled + span::before,
+.md-checkbox > input:indeterminate:disabled + span::before {
  border-color: transparent;
  background-color: currentColor;
 }
