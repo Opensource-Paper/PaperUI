@@ -15,63 +15,59 @@ media-switch {
 
 
 .switch {
-  font-size: 17px;
-  position: relative;
-  display: inline-block;
-  width: 3.5em;
-  height: 2em;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+ --secondary-container: #000000;
+ --primary: #ffffff;
+ font-size: 17px;
+ position: relative;
+ display: inline-block;
+ width: 3.7em;
+ height: 1.8em;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+ display: none;
+ opacity: 0;
+ width: 0;
+ height: 0;
 }
 
-/* The slider */
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  border: 1px solid rgba(94,94,94,.5);
-  transition: all .15s ease;
-  border-radius: 30px;
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ffffff;
+    outline: 1px solid rgba(94, 94, 94, .5);
+ transition: .2s;
+ border-radius: 9999px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 1.2em;
-  width: 1.2em;
-  border-radius: 20px;
-  left: 0.37em;
-  bottom: 0.35em;
-  background-color: #000000;
-  transition: .4s;
+ position: absolute;
+ content: "";
+ height: 1.4em;
+ width: 1.4em;
+ border-radius: 9999px;
+ left: 0.2em;
+ bottom: 0.2em;
+ background-color: #aeaaae;
+ transition: .4s;
 }
 
-.switch input:checked + .slider {
-  background-color: #000000;
-  border: 1px solid #000000;
+input:checked + .slider::before {
+ background-color: var(--primary);
 }
 
-.switch input:focus + .slider {
-  box-shadow: 0 0 1px #000000;
+input:checked + .slider {
+ background-color: var(--secondary-container);
+      outline: 1px solid rgba(0, 0, 0, 1);
 }
 
-.switch input:checked + .slider:before {
-  transform: translateX(1.4em);
-  background-color: #fff;
-    height: 1.4em;
-  width: 1.4em;
-    bottom: 0.25em;
-    left: 0.27em;
+input:focus + .slider {
+}
+
+input:checked + .slider:before {
+ transform: translateX(1.9em);
 }
