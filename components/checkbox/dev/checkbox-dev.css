@@ -66,7 +66,7 @@ media-checkbox:hover {
  content: "";
  display: flex;
  box-sizing: border-box;
- border: solid 2px;
+ border: solid 1px;
  /* Safari */
  border-color: rgba(94, 94, 94, 0.5);
  border-radius: 5px;
