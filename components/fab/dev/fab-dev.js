@@ -1,8 +1,7 @@
-// Find all elements with the specified classes
-const Fabs = document.querySelectorAll('media-fab-filled, media-fab-text, media-fab-outlined');
+// Fabs Component
+const fabs = document.querySelectorAll('media-fab-filled, media-fab-text, media-fab-outlined');
 
-// Function to apply or remove size based on the value of the size attribute
-const applySize = (fab) => {
+const applyFabSize = (fab) => {
   const size = fab.getAttribute('size');
   let height, width;
 
@@ -13,7 +12,6 @@ const applySize = (fab) => {
     height = '65px';
     width = '65px';
   } else {
-    // Default to normal size if size attribute is not specified or invalid
     height = '50px';
     width = '50px';
   }
@@ -24,21 +22,18 @@ const applySize = (fab) => {
   fab.style.maxWidth = width;
 };
 
-// Function to handle mutations in the DOM
-const handleMutations = (mutationsList, observer) => {
+const fabMutationHandler = (mutationsList, observer) => {
   for (const mutation of mutationsList) {
     if (mutation.type === 'attributes' && mutation.attributeName === 'size') {
       const fab = mutation.target;
-      applySize(fab);
+      applyFabSize(fab);
     }
   }
 };
 
-// Create a new mutation observer
-const observer = new MutationObserver(handleMutations);
+const fabObserver = new MutationObserver(fabMutationHandler);
 
-// Apply size and start observing mutations for each fab
-Fabs.forEach(fab => {
-  applySize(fab);
-  observer.observe(fab, { attributes: true });
+fabs.forEach(fab => {
+  applyFabSize(fab);
+  fabObserver.observe(fab, { attributes: true });
 });
