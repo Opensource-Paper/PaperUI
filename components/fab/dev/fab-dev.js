@@ -22,6 +22,8 @@ const applySize = (fab) => {
   fab.style.minWidth = width;
   fab.style.maxHeight = height;
   fab.style.maxWidth = width;
+  fab.style.height = height;
+  fab.style.width = width;
 };
 
 // Function to handle mutations in the DOM
