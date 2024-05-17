@@ -35,6 +35,7 @@ function loadLibrary() {
   jsScripts.forEach(function(script) {
     var jsTag = document.createElement('script');
     jsTag.src = 'https://prism-ui.com/' + script;
+     jsTag.async = true;
     document.head.appendChild(jsTag);
   });
 }
