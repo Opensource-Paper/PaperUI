@@ -38,6 +38,7 @@
 /* Filled Button */
 
 media-fab-filled {
+  display: flex;
     color: var(--media-button-text-primary);
     background-color: #000000;
 }
@@ -49,6 +50,7 @@ media-fab-filled:active {
 }
 
 media-fab-text {
+    display: flex;
     color: var(--media-button-text-secondary);
     background-color: transparent;
 }
@@ -62,6 +64,7 @@ media-fab-text:active {
 /* Outlined Button */
 
 media-fab-outlined {
+    display: flex;
     color: var(--media-button-text-secondary);
     background-color: transparent;
     outline: 1px solid rgba(94,94,94,.5);
