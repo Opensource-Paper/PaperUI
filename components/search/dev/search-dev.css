@@ -15,6 +15,7 @@ media-search {
     background-color: #ffffff;
     outline: 1px solid rgba(94,94,94,.5);
     color: #010101;
+      overflow: hidden;
 }
 
 media-search svg {
