@@ -10,6 +10,7 @@ function loadLibrary() {
     'components/input/dev/input-dev.css',
     'components/checkbox/dev/checkbox-dev.css',
     'components/search/dev/search-dev.css',
+    'components/fab/dev/fab-dev.css',
     // Add more CSS links here...
   ];
 
@@ -27,6 +28,7 @@ function loadLibrary() {
     'components/input/dev/input-dev.js',
     'components/checkbox/dev/checkbox-dev.js',
     'components/search/dev/search-dev.js',
+    'components/fab/dev/fab-dev.js',
     // Add more JS scripts here...
   ];
 
