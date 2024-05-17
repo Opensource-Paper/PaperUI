@@ -55,3 +55,5 @@ Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs]
 <media-switch disabled checked></media-switch>
 ```
 
+Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).
+
