@@ -18,8 +18,10 @@ const applySize = (fab) => {
     width = '50px';
   }
 
-  fab.style.height = height;
-  fab.style.width = width;
+  fab.style.minHeight = height;
+  fab.style.minWidth = width;
+  fab.style.maxHeight = height;
+  fab.style.maxWidth = width;
 };
 
 // Function to handle mutations in the DOM
