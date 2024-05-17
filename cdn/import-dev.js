@@ -9,6 +9,7 @@ function loadLibrary() {
     'components/switch/dev/switch-dev.css',
     'components/input/dev/input-dev.css',
     'components/checkbox/dev/checkbox-dev.css',
+    'components/search/dev/search-dev.css',
     // Add more CSS links here...
   ];
 
@@ -25,6 +26,7 @@ function loadLibrary() {
     'components/switch/dev/switch-dev.js',
     'components/input/dev/input-dev.js',
     'components/checkbox/dev/checkbox-dev.js',
+    'components/search/dev/search-dev.js',
     // Add more JS scripts here...
   ];
 
