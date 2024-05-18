@@ -32,7 +32,7 @@
     --media-button-outlined-outline-color: rgba(94, 94, 94, .5);
     --media-button-outlined-hover-color: #000000;
     --media-button-outlined-hover-handle-color: #f1f1f1;
-    --media-button-outlined-hover-outline: #000000;
+    --media-button-outlined-hover-outline-color: #000000;
   
     --media-button-text-handle-color: #010101;
     --media-button-text-hover-color: rgba(220,220,220,.9);
