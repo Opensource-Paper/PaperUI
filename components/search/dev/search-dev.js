@@ -7,6 +7,11 @@ mediaSearchList.forEach(mediaSearch => {
   const searchInput = document.createElement('input');
   searchInput.setAttribute('type', 'search');
   searchInput.setAttribute('name', 'search');
+  searchInput.setAttribute('haspopup', 'false');
+  searchInput.setAttribute('autocapitalize', 'off');
+  searchInput.setAttribute('autocomplete', 'off');
+  searchInput.setAttribute('autocorrect', 'off');
+  searchInput.setAttribute('spellcheck', 'false');
   searchInput.setAttribute('placeholder', 'Search');
   searchInput.setAttribute('required', '');
 
