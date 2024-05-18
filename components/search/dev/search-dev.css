@@ -12,10 +12,13 @@ media-search {
     display: flex;
     border-radius: 9999px;
     font-size: 16px;
-    background-color: #ffffff;
-    outline: 1px solid rgba(94,94,94,.5);
-    color: #010101;
-      overflow: hidden;
+    overflow: hidden;
+    --media-search-color: #ffffff;
+    --media-search-handle-color: #010101;
+    --media-search-outline-color: rgba(94, 94, 94, .5);
+    background-color: var(--media-search-color);
+    outline: 1px solid var(--media-search-outline-color);
+    color: var(--media-search-handle-color);
 }
 
 media-search svg {
@@ -28,17 +31,17 @@ media-search svg {
     text-align: center;
     padding-left: 11px;
     margin-right: 11px;
-  color: #000000;
+    color: var(--media-search-handle-color);
 }
 
 media-search input {
     padding: 1.5px 0px 1px 0px;
     text-align: left;
-    background-color: #ffffff;
+    background-color: var(--media-search-color);
     outline: none;
     border: none;
     height: 45px;
-  min-height: 45px;
+    min-height: 45px;
     width: calc(100% - 30px);
     cursor: text;
     color: inherit;
@@ -46,9 +49,9 @@ media-search input {
     user-select: none;
     align-items: center;
     display: flex;
-  font-size: 16px;
-  color: #010101;
-  line-height: 0px;
-  justify-content: flex-start;
-      font-weight: 400;
+    font-size: 16px;
+    color: var(--media-search-handle-color);
+    line-height: 0px;
+    justify-content: flex-start;
+    font-weight: 400;
 }
