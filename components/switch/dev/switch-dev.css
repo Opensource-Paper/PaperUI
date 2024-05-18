@@ -11,12 +11,16 @@ media-switch {
   align-items: center;
   text-align: center;
   justify-content: center;
+  --media-switch-color: #ffffff;
+  --media-switch-handle-color: #000000;
+  --media-switch-outline-color: rgba(94, 94, 94, .5);
+  --media-switch-checked-color: #000000;
+  --media-switch-checked-handle-color: #ffffff;
+  --media-switch-checked-outline-color: rgba(0, 0, 0, 1);
 }
 
 
 .switch {
- --secondary-container: #000000;
- --primary: #ffffff;
  font-size: 17px;
  position: relative;
  display: inline-block;
@@ -38,8 +42,8 @@ media-switch {
  left: 0;
  right: 0;
  bottom: 0;
- background-color: #ffffff;
-    outline: 1px solid rgba(94, 94, 94, .5);
+ background-color: var(--media-switch-color);
+ outline: 1px solid var(--media-switch-outline-color);
  transition: .2s;
  border-radius: 9999px;
 }
@@ -52,20 +56,17 @@ media-switch {
  border-radius: 9999px;
  left: 0.2em;
  bottom: 0.2em;
- background-color: #000000;
+ background-color: var(--media-switch-handle-color);
  transition: .2s;
 }
 
 input:checked + .slider::before {
- background-color: var(--primary);
+ background-color:  var(--media-switch-checked-handle-color);
 }
 
 input:checked + .slider {
- background-color: var(--secondary-container);
-      outline: 1px solid rgba(0, 0, 0, 1);
-}
-
-input:focus + .slider {
+ background-color: var(--media-switch-checked-color);
+      outline: 1px solid var(--media-switch-checked-outline-color);
 }
 
 input:checked + .slider:before {
