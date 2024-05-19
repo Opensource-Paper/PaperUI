@@ -11,6 +11,7 @@ media-switch {
   align-items: center;
   text-align: center;
   justify-content: center;
+  cursor: pointer;
   --media-switch-color: #ffffff;
   --media-switch-handle-color: #000000;
   --media-switch-outline-color: rgba(94, 94, 94, .5);
