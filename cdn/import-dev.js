@@ -17,7 +17,7 @@ function loadLibrary() {
   cssLinks.forEach(function(link) {
     var cssTag = document.createElement('link');
     cssTag.rel = 'stylesheet';
-    cssTag.href = 'https://prism-ui.com/' + link;
+    cssTag.href = 'https://paperui.com/' + link;
     document.head.appendChild(cssTag);
   });
 
@@ -34,7 +34,7 @@ function loadLibrary() {
 
   jsScripts.forEach(function(script) {
     var jsTag = document.createElement('script');
-    jsTag.src = 'https://prism-ui.com/' + script;
+    jsTag.src = 'https://paperui.com/' + script;
      jsTag.async = true;
     document.head.appendChild(jsTag);
   });
