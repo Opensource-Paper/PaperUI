@@ -29,8 +29,8 @@ media-checkbox:hover {
 .md-checkbox {
   height: 100%;
   width: 100%;
- position: relative;
- display: flex;
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -49,7 +49,7 @@ media-checkbox:hover {
  height: 30px;
  background-color: var(--media-checkbox-color);
  box-shadow: none;
- outline: none;
+ outline: none!important;
  opacity: 1;
  transform: scale(1);
  pointer-events: none;
@@ -72,7 +72,7 @@ media-checkbox:hover {
  content: "";
  display: flex;
  box-sizing: border-box;
- border: solid 1px;
+ border: solid 1px !important;
  /* Safari */
  border-color: var(--media-checkbox-outline-color);
  border-radius: 5px;
@@ -91,7 +91,7 @@ media-checkbox:hover {
  left: 3px;
  width: 15px;
  height: 5px;
- border: solid 2px transparent;
+ border: solid 2px transparent !important;
  border-right: none;
  border-top: none;
  transform: translate(3px, 4px) rotate(-45deg);
