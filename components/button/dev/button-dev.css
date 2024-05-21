@@ -112,7 +112,7 @@ media-button-outlined {
     padding-right: 12px;
     color: var(--media-button-outlined-handle-color);
     background-color: var(--media-button-outlined-color);
-    outline: 1px solid var(--media-button-outlined-outline-color);
+    outline: 1px solid var(--media-button-outlined-outline-color)!important;
 }
 
 media-button-outlined:hover,
@@ -120,5 +120,5 @@ media-button-outlined:active {
     background-color: var(--media-button-outlined-hover-color);
     transition: var(--media-button-transition);
     outline: 1px solid var(--media-button-outlined-hover-outline-color);
-  color: var(--media-button-outlined-hover-handle-color);
+  color: var(--media-button-outlined-hover-handle-color)!important;
 }
