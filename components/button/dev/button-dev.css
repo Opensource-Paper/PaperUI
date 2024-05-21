@@ -3,7 +3,7 @@
 :where(media-button-filled),
 :where(media-button-text),
 :where(media-button-outlined) {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Inter", sans-serif;
     display: flex;
     max-height: 40px;
     min-height: 40px;
