@@ -44,7 +44,7 @@ media-switch {
  right: 0;
  bottom: 0;
  background-color: var(--media-switch-color);
- outline: 1px solid var(--media-switch-outline-color);
+ outline: 2px solid var(--media-switch-outline-color);
  transition: .2s;
  border-radius: 9999px;
 }
@@ -67,7 +67,7 @@ input:checked + .slider::before {
 
 input:checked + .slider {
  background-color: var(--media-switch-checked-color);
-      outline: 1px solid var(--media-switch-checked-outline-color);
+      outline: 2px solid var(--media-switch-checked-outline-color);
 }
 
 input:checked + .slider:before {
