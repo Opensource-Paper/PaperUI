@@ -46,7 +46,10 @@ media-switch {
  background-color: var(--media-switch-color);
  outline: 2px solid var(--media-switch-outline-color);
  transition: .2s;
- border-radius: 9999px;
+ border-start-start-radius: 9999px;
+ border-start-end-radius: 9999px;
+ border-end-end-radius: 9999px;
+ border-end-start-radius: 9999px;
 }
 
 .slider:before {
@@ -54,7 +57,10 @@ media-switch {
  content: "";
  height: 1.4em;
  width: 1.4em;
- border-radius: 9999px;
+ border-start-start-radius: 9999px;
+ border-start-end-radius: 9999px;
+ border-end-end-radius: 9999px;
+ border-end-start-radius: 9999px;
  left: 0.2em;
  bottom: 0.2em;
  background-color: var(--media-switch-handle-color);
