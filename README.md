@@ -42,7 +42,7 @@ npm install paper-ui/react
 
 ## Usage
 
-Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://paperui.com/components) for more guidance on using each component. That's it 🎉.
+Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://docs.prism-ui.com/components) for more guidance on using each component. That's it 🎉.
 
 ```html
 <media-button-filled>Filled</media-button-filled>
