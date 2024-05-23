@@ -29,6 +29,7 @@ function loadLibrary() {
     'components/checkbox/dev/checkbox-dev.js',
     'components/search/dev/search-dev.js',
     'components/fab/dev/fab-dev.js',
+    'components/theme.js',
     // Add more JS scripts here...
   ];
 
