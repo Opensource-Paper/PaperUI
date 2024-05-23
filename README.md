@@ -6,7 +6,7 @@
 <div align="left">The Paper UI library allows users to easily import and style a wide range of components with a singular cdn link.</div>
 <div align="left">
 
-[Documentation](https://docs.prism-ui.com/)
+[Documentation](https://paperui.com/)
 
 </div>
 
@@ -42,7 +42,7 @@ npm install paper-ui/react
 
 ## Usage
 
-Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://docs.prism-ui.com/components) for more guidance on using each component. That's it 🎉.
+Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://paperui.com/components) for more guidance on using each component. That's it 🎉.
 
 ```html
 <media-button-filled>Filled</media-button-filled>
