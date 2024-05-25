@@ -54,5 +54,9 @@ Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs]
 <media-switch disabled checked></media-switch>
 ```
 
+<p align="center">
+<img alt="Logo Banner" src="https://paperui.com/banner/switch.gif?sanitize=true"/>
+<br/>
+
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).
 
