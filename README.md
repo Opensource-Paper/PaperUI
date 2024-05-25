@@ -55,7 +55,7 @@ Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs]
 ```
 
 <p align="center">
-<img alt="Logo Banner" src="https://paperui.com/banner/switc.gif?sanitize=true"/>
+<img alt="Logo Banner" src="https://paperui.com/banner/switch.gif?sanitize=true"/>
 <br/>
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).
