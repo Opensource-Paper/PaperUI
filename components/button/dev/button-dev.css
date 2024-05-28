@@ -48,8 +48,10 @@
 :where(media-button-filled.trailing-icon svg),
 :where(media-button-text.trailing-icon svg),
 :where(media-button-outlined.trailing-icon svg) {
-    height: 16px;
-    width: 16px;
+    min-height: 16px;
+    min-width: 16px;
+    max-height: 16px;
+    max-width: 16px;
     display: flex;
     color: inherit;
     margin-left: var(--trailing-icon-margin);
@@ -61,8 +63,10 @@
 :where(media-button-filled:not(.trailing-icon) svg),
 :where(media-button-text:not(.trailing-icon) svg),
 :where(media-button-outlined:not(.trailing-icon) svg) {
-    height: 16px;
-    width: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    min-width: 16px;
+    max-width: 16px;
     display: flex;
     color: inherit;
     margin-right: var(--media-button-icon-margin);
