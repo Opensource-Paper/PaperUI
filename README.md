@@ -29,7 +29,7 @@ Import Paper UI web components using CDN. The import-min.js file will automatica
 Install Paper UI web components using [npm and node](https://nodejs.org/en).
 
 ```bash
-npm install paper-ui/library
+npm install paperui/library
 ```
 
 ### React NPM
@@ -37,7 +37,7 @@ npm install paper-ui/library
 Install Paper UI react components using [npm and node](https://nodejs.org/en).
 
 ```bash
-npm install paper-ui/react
+npm install paperui/react
 ```
 
 ## Usage
