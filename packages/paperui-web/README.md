@@ -34,7 +34,7 @@ npm install paperui-web
 
 ## Import
 
-Import element definitions from ```paperui-web/<component>/<component-variant>.js```.
+Import element definitions from ```paperui-web/<component>/<component>.js```.
 
 ```index.js```
 
