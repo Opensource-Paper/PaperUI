@@ -39,11 +39,8 @@ Import element definitions from ```paperui-web/<component>/<component-variant>.j
 ```index.js```
 
 ```js
-import paperIcons from 'papericons';
-
-document.addEventListener('DOMContentLoaded', () => {
-  paperIcons.replaceIcons();
-});
+import 'paperui-web/switch/switch.js';
+import 'paperui-web/checkbox/checkbox.js';
 ```
 
 ## Usage
