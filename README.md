@@ -39,6 +39,7 @@ Import element definitions from ```paperui-web/<component>/<component>.js```.
 ```index.js```
 
 ```js
+// index.js
 import 'paperui-web/switch/switch.js';
 import 'paperui-web/checkbox/checkbox.js';
 ```
