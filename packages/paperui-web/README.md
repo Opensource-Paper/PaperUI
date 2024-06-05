@@ -32,6 +32,20 @@ Install Paper UI web components using [npm and node](https://nodejs.org/en).
 npm install paperui-web
 ```
 
+## Import
+
+Import element definitions from ```paperui-web/<component>/<component-variant>.js```.
+
+```index.js```
+
+```js
+import paperIcons from 'papericons';
+
+document.addEventListener('DOMContentLoaded', () => {
+  paperIcons.replaceIcons();
+});
+```
+
 ## Usage
 
 Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://paperui.com) for more guidance on using each component. That's it 🎉.
