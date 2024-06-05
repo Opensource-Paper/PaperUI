@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:where(media-button-filled),
+:where(media-button-text),
+:where(media-button-outlined) {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    max-height: 40px;
+    min-height: 40px;
+    max-width: fit-content;
+    min-width: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: regular;
+    border-radius: 5px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    border: none;
+    --media-button-transition: all 0.15s ease;
+    --media-button-transition-opacity: 0.85;
+    --media-button-icon-margin: 7.5px;
+  
+    --media-button-filled-color: #000000;
+    --media-button-filled-handle-color: #F1F1F1;
+  
+    --media-button-outlined-color: #ffffff;
+    --media-button-outlined-handle-color: #010101;
+    --media-button-outlined-outline-color: rgba(94, 94, 94, .5);
+    --media-button-outlined-hover-color: #000000;
+    --media-button-outlined-hover-handle-color: #f1f1f1;
+    --media-button-outlined-hover-outline-color: #000000;
+  
+    --media-button-text-handle-color: #010101;
+    --media-button-text-hover-color: rgba(220,220,220,.9);
+    user-select: none;
+}
+
+.trailing-icon {
+    --trailing-icon-margin: 7.5px;
+}
+
+
+:where(media-button-filled.trailing-icon svg),
+:where(media-button-text.trailing-icon svg),
+:where(media-button-outlined.trailing-icon svg) {
+    min-height: 16px;
+    min-width: 16px;
+    max-height: 16px;
+    max-width: 16px;
+    display: flex;
+    color: inherit;
+    margin-left: var(--trailing-icon-margin);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+:where(media-button-filled:not(.trailing-icon) svg),
+:where(media-button-text:not(.trailing-icon) svg),
+:where(media-button-outlined:not(.trailing-icon) svg) {
+    min-height: 16px;
+    max-height: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    display: flex;
+    color: inherit;
+    margin-right: var(--media-button-icon-margin);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Filled Button */
+
+media-button-filled {
+    max-width: fit-content;
+    min-width: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--media-button-filled-handle-color);
+    background-color: var(--media-button-filled-color);
+}
+
+media-button-filled:hover,
+media-button-filled:active {
+    opacity: var(--media-button-transition-opacity);
+    transition: var(--media-button-transition);
+}
+
+media-button-text {
+    max-width: fit-content;
+    min-width: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--media-button-text-handle-color);
+    background-color: transparent;
+}
+
+media-button-text:hover,
+media-button-text:active {
+    background-color: var(--media-button-text-hover-color);
+    transition: var(--media-button-transition);
+}
+
+/* Outlined Button */
+
+media-button-outlined {
+    max-width: fit-content;
+    min-width: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: var(--media-button-outlined-handle-color);
+    background-color: var(--media-button-outlined-color);
+    outline: 1px solid var(--media-button-outlined-outline-color);
+}
+
+media-button-outlined:hover,
+media-button-outlined:active {
+    background-color: var(--media-button-outlined-hover-color);
+    transition: var(--media-button-transition);
+    outline: 1px solid var(--media-button-outlined-hover-outline-color);
+  color: var(--media-button-outlined-hover-handle-color);
+}
