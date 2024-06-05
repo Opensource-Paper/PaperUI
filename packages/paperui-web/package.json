@@ -1,20 +1,20 @@
 {
     "name": "paperui-web",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "The Paper UI library allows users to easily import and style a wide range of components with a singular cdn link.",
     "main": "import.js",
     "unpkg": "import.min.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Opensource-Paper/PaperUI.git"
+        "type": "git",
+        "url": "git+https://github.com/Opensource-Paper/PaperUI.git"
     },
     "author": "Opensource-Paper",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/Opensource-Paper/PaperUI/issues"
+        "url": "https://github.com/Opensource-Paper/PaperUI/issues"
     },
     "homepage": "https://paperui.com",
     "keywords": [
@@ -39,5 +39,4 @@
         "paper-ui",
         "paperui"
     ]
-  }
-  
+}
