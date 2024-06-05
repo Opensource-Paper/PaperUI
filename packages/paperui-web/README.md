@@ -47,6 +47,8 @@ import 'paperui-web/checkbox/checkbox.js';
 
 Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://paperui.com) for more guidance on using each component. That's it 🎉.
 
+```HTML```
+
 ```html
 <media-button-filled>Filled</media-button-filled>
 <media-button-outlined>Outlined</media-button-outlined>
