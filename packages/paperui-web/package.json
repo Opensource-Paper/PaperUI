@@ -1,6 +1,6 @@
 {
     "name": "paperui-web",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "description": "The Paper UI library allows users to easily import and style a wide range of components with a singular cdn link.",
     "main": "import.js",
     "unpkg": "import.min.js",
