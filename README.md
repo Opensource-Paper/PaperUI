@@ -1,3 +1,4 @@
+<p align="center">
 <img alt="Logo Banner" src="https://paperui.com/banner/banner.svg?sanitize=true"/>
 <br/>
 
