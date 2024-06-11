@@ -1,46 +1,46 @@
 {
-    "name": "paperui-web",
-    "version": "0.0.20",
-    "description": "The Paper UI library allows users to easily import and style a wide range of components with a singular cdn link.",
-    "main": "import.js",
-    "unpkg": "import.min.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Opensource-Paper/PaperUI.git"
-    },
-    "author": "Opensource-Paper",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Opensource-Paper/PaperUI/issues"
-    },
-    "homepage": "https://paperui.com",
-    "keywords": [
-        "react",
-        "javascript",
-        "css",
-        "html",
-        "npm",
-        "ui-design",
-        "documentation",
-        "ui",
-        "component",
-        "js",
-        "cdn",
-        "paper",
-        "web-components",
-        "component-library",
-        "ui-components",
-        "ui-library",
-        "componets",
-        "inter",
-        "paper-ui",
-        "paperui"
-    ],
-    "dependencies": {
-        "lit": "^2.8.0",
-        "tslib": "^2.6.3"
-    }
+  "name": "paperui-web",
+  "version": "0.0.22",
+  "description": "The Paper UI library allows users to easily import and style a wide range of components with a singular cdn link.",
+  "main": "all.min.js",
+  "unpkg": "all.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opensource-Paper/PaperUI.git"
+  },
+  "author": "Opensource-Paper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opensource-Paper/PaperUI/issues"
+  },
+  "homepage": "https://paperui.com",
+  "keywords": [
+    "react",
+    "javascript",
+    "css",
+    "html",
+    "npm",
+    "ui-design",
+    "documentation",
+    "ui",
+    "component",
+    "js",
+    "cdn",
+    "paper",
+    "web-components",
+    "component-library",
+    "ui-components",
+    "ui-library",
+    "componets",
+    "inter",
+    "paper-ui",
+    "paperui"
+  ],
+  "dependencies": {
+    "lit": "^2.8.0",
+    "tslib": "^2.6.3"
+  }
 }
