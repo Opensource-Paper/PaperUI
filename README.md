@@ -1,4 +1,4 @@
-<p align="center">
+![image](https://github.com/Opensource-Paper/PaperUI/assets/118539051/72b9fcd4-2bd1-43f4-9bfd-4c3b0ae434f9)<p align="center">
 <img alt="Logo Banner" src="https://paperui.com/banner/banner.svg?sanitize=true"/>
 <br/>
 
@@ -17,11 +17,11 @@
 Import Paper UI web components using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
-<script type="module" src="https://paperui.com/cdn/import-min.js"></script>
+<script type="module" src="https://unpkg.com/paperui-web"></script>
 ```
 #### 🚧 Development
 ```html
-<script type="module" src="https://paperui.com/cdn/import-dev.js"></script>
+<script type="module" src="https://unpkg.com/paperui-web"></script>
 ```
 
 ### NPM
