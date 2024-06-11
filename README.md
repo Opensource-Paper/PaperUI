@@ -1,4 +1,3 @@
-![image](https://github.com/Opensource-Paper/PaperUI/assets/118539051/72b9fcd4-2bd1-43f4-9bfd-4c3b0ae434f9)<p align="center">
 <img alt="Logo Banner" src="https://paperui.com/banner/banner.svg?sanitize=true"/>
 <br/>
 
