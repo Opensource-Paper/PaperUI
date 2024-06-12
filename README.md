@@ -21,7 +21,7 @@ Import Paper UI web components using CDN. The import-min.js file will automatica
 ```
 #### 🚧 Development
 ```html
-<script type="module" src="https://unpkg.com/paperui-web"></script>
+<script type="module" src="https://unpkg.com/paperui-web@latest"></script>
 ```
 
 ### NPM
